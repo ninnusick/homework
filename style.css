@@ -1,0 +1,52 @@
+.content {
+    width: 310px;
+    border: 2px solid black;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 490px;
+}
+
+.content .fab {
+    margin-top: 20px;
+    font-size: 70px;
+    margin-left: 115px;
+}
+
+.content h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.content p {
+    font-size: 22px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.content a {
+    background: black;
+    text-decoration: none;
+    color: white;
+    margin-left: 80px;
+    padding: 5px 25px;
+    font-size: 22px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.content:hover {
+    background-color: orange;
+    color: aliceblue;
+    border-color: red;
+}
+
+.card {
+    padding-left: 50px;
+}
+
+.content:hover a {
+    background-color: red;
+    color: lightcoral;
+}
