@@ -1,24 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Module5</title>
-    <link rel="stylesheet" href="style.css">  
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
-    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
+    <title>Golden</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
- 
-    <div class="card">
-        <div class="content content-1">
-            <div class="fab fa-youtube"></div>
-            <h2>YOUTUBE</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga voluptas, laudantium porro nostrum voluptatum cum maxime nihil a!</p>
-            <a href="https://www.youtube.com/" class="link">Read more</a>
-        </div>
+    <div class="wrapper">
+        <header class="header">
+            <a href="#" class="logo">Golden</a>
+
+            <nav class="menu">
+                <ul class="menu-list">
+                    <li class="menu-list-item">
+                        <a href="" class="menu-link">Home</a>
+                    </li>
+
+                    <li class="menu-list-item">
+                        <a href="" class="menu-link">Services</a>
+                    </li>
+
+                    <li class="menu-list-item">
+                        <a href="" class="menu-link">Portfolio</a>
+                    </li>
+
+                    <li class="menu-list-item">
+                        <a href="" class="menu-link">About</a>
+                    </li>
+
+                    <li class="menu-list-item">
+                        <a href="" class="menu-link">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="services">
+            <h2 class="title">SERVICES</h2>
+
+            <ul class="service-content">
+                <li class="service-content-item">
+                    <div class="icon"><img src="./imgs/Combined shape 134.png" alt=""></div>
+                    <h4 class="content-title">E-Commerce</h4>
+                    <p class="content-text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in
+                    tincidunt.</p>
+
+                </li>
+
+                <li class="service-content-item">
+                    <div class="icon"><img src="./imgs/Combined shape 132.png" alt=""></div>
+                    <h4 class="content-title">Responsive Web</h4>
+                    <p class="content-text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in
+                    tincidunt.</p>
+                
+                </li>
+
+                <li class="service-content-item">
+                    <div class="icon"><img src="./imgs/Combined shape 130.png" alt=""></div>
+                    <h4 class="content-title">Web Security</h4>
+                    <p class="content-text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in
+                    tincidunt.</p>
+                
+                </li>
+            </ul>
+        </section>
     </div>
+
+   <section class="contactus">
+    
+    <h2 class="title-sec">CONTACT US</h2>
+    
+        <div class="form-first">
+            <form action="" name="name-1" autocomplete="off" novalidate>
+                <div class="input"><label for="">
+                    <input type="text" name="username" placeholder="YOUR NAME *" >
+                </label>
+
+                <label for="">
+                    <input type="email" name="email" placeholder="YOUR E-MAIL *">
+                </label>
+
+                <label for="">
+                    <input type="text" name="subject" placeholder="SUBJECT">
+                </label>
+                </div>
+                
+                <label for="">
+                    <textarea name="feedback" rows="5" placeholder="YOUR MESSAGE *"></textarea>
+                </label> 
+                
+            </form>  
+        </div>    
+
+    <div class="button">
+        <a href="#" class="send">SEND MESSAGE</a>
+    </div>
+   </section>
+
 </body>
 </html>
